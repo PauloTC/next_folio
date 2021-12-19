@@ -1,0 +1,17 @@
+.container {
+  background-image: url('https://i.ibb.co/ZBhYYb1/banner2.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 0;
+  &:before {
+    content: '';
+    background-color: #000;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+  }
+}
